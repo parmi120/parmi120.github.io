@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <title>MY FITNESS SITE</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="nav" id="mynav">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="sport.html">Sport</a>
+            <a href="technology.html">Technology</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+
+    </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+
+    <div class="banner fadeInDown animated">
+        <img class="banner-image" src="Images/tech-banner.jpg">
+    </div>
+
+    <section id="container">
+        <section id="intro">
+            <h2 class="wow fadeInUp" data-wow-delay="0.3s">Technology</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.3s">The role of technology is huge in every sport, please hover over the following images for the appropriate technologies, once you hover over each image an overlay will appear which is a dark shadowy color, along with some text for you view, the text will say the name of the page, and then once you click the inner circle icon you will be taken to that page. Please note that you need to start from the top of the page, if you refresh then start on the bottom of the page the content will not load as it loads on scrolling from down to bottom.</p>
+        </section>
+    </section>
+
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+
+                    <!-- iso section -->
+                    <div class="iso-section wow fadeInUp" data-wow-delay="1.8s">
+
+
+                        <!-- iso box section -->
+                        <div class="iso-box-section wow fadeInUp" data-wow-delay="1.8s">
+                            <div class="iso-box-wrapper col4-iso-box">
+
+                                <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/analytics.jpg" class="img-responsive" alt="takes you to the analytics page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="analytics.html"><i class="fa fa-link"></i></a>
+                                                <h2>Analytics</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="iso-box graphic template col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/Broadcasting.jpg" class="img-responsive" alt="takes you to the broadcasting page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="broadcasting.html"><i class="fa fa-link"></i></a>
+                                                <h2>Broadcasting</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="iso-box template graphic col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/goal.jpg" class="img-responsive" alt="takes you to the goaline page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="goalline.html"><i class="fa fa-link"></i></a>
+                                                <h2>Goal-Line</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="iso-box graphic template col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/smart.jpg" class="img-responsive" alt="takes you to the smart page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="smarthelmets.html"><i class="fa fa-link"></i></a>
+                                                <h2>Smart Helmets</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/hawkeye.jpg" class="img-responsive" alt="takes you to the hawkeye page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="hawkeye.html"><i class="fa fa-link"></i></a>
+                                                <h2>Hawkeye</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="iso-box graphic branding col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <img src="Images/Cricket.jpg" class="img-responsive" alt="takes you to the cricket page">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-item">
+                                                <a href="cricket.html"><i class="fa fa-link"></i></a>
+                                                <h2>Cricket</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Start of footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="sport.html">Sport</a> ·
+                <a href="technology.html">Technology</a> ·
+                <a href="about.html">About</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>Parminder gill &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>

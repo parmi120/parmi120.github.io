@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <title>MY FITNESS SITE</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <div class="nav" id="mynav">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="sport.html">Sport</a>
+            <a href="technology.html">Technology</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+
+    </script>
+
+
+
+    <section class="one-third wow fadeInUp" data-wow-delay="1.3s">
+        <h2>Analytics</h2>
+        <h3>Sport used in :Everyone</h3>
+    </section>
+
+
+
+    <section class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="1.3s">
+        <p>Data from wearable technology devices such as Google Glass, GPS trackers and fitness trackers provides real-time stats on each player, including speed, heart rate and acceleration. Such devices are also helping in reducing players’ injuries. No team wants its star players to sit out a match due to injuries. For example, in sports like rugby where the chances of getting injured are very high, injury levels have been reduced thanks to wearable sensors. The sensors record the impact of collision and intensity of activity, and compares them with the historical data in the database to determine if a player is at risk of getting injured or is overexerting.
+            <br>
+            <br>Analytics are also of good use when it comes to determining player statistics as you can measure how many successful passes a player has made or how many times they have lost the ball, this can be useful for the player as well as they can review these results and then try to improve their game by fixing the smain flaws they have.
+            <br>
+            <br> Basketball is one of the best examples of how analytics have changed the way sports are played and player performance is measured. NBA teams are now using a form of technology called “Player Tracking,” which evaluates the efficiency of a team by an analysis of player movement. According to the SportVu software website, teams in the NBA are now using six cameras installed in the catwalks of arenas to track the movements of every player on the court and the basketball 25 times per second. The data collected provides a plethora of innovative statistics based on speed, distance, player separation and ball possession. Some examples include how fast a player moves, how far he traveled during a game, how many times he touched the ball, how many passes he made, how many rebounding opportunities he had, and much more. The information is available to fans on NBA.com and NBA TV</p>
+        <img src="Images/analytics.jpg" class="img-responsive" alt="Single Project">
+    </section>
+
+
+    <div class="clearfix"></div>
+    <!-- Start of footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="sport.html">Sport</a> ·
+                <a href="technology.html">Technology</a> ·
+                <a href="about.html">About</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>Parminder gill &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>

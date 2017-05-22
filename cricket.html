@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <title>MY FITNESS SITE</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <div class="nav" id="mynav">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="sport.html">Sport</a>
+            <a href="technology.html">Technology</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+
+
+
+    <section class="one-third wow fadeInUp" data-wow-delay="1.3s">
+        <h2>Cricket technology</h2>
+        <h3>Sport used in :Cricket</h3>
+    </section>
+
+
+
+    <section class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="1.3s">
+        <p>Cricket makes use of a lot of technologies such as hot spots, snickometer,hawk eye, speed guns and spider cameras. Hot spots are used to determine whether a ball has hit the bat or the pad of the player, this is difficult to detect with the naked eye so the tech is required.</p>
+        <p>Hawk-eye is used is various sports but in cricket it is used to determine the trajectory of the ball after it has hit the pad to determine whether the ball would have hit the wickets or gone wide, this was introduced in 2001 and is ever present, the referee will be able to see a video of the hawkeye to determine the correct outcome.
+        </p>
+        <p>The SpiderCam enables film and television cameras to move both vertically and horizontally over a predetermined area, typically the playing field of a sporting event such as a cricket pitch. The SpiderCam operates with four motorised winches positioned at each corner at the base of the covered area, each of which controls a Kevlar cable connected to a gyro-stabilised camera-carrier, or dolly. By controlling the winding and unwinding of the cables, the system allows the dolly to reach any position in the three-dimensional space. The inputs of the SpiderCam "pilot" are processed by a software that forwards the commands to the winches via fibre optic cables. The SpiderCam was first used in the Indian Cricket League followed by the semi finals of 2010 IPL in Champions League Twenty20 in South Africa.
+        </p>
+        <p>The Speed Gun is used to measure the speed of the ball from one end of the pitch to the other. The technology allows calculating the speed of bowler's delivery. Implemented first in 1999, the speed gun gets mounted on a pole and positioned next to the sight screen. The device relays a beam from the radar head to detect movement across the entire length of the pitch. This technology actually tells us who is the fastest bowler and what was the highest speed the player achieved while setting up the record.
+        </p>
+        <img src="Images/Cricket.jpg" class="img-responsive" alt="Single Project">
+    </section>
+
+
+    <div class="clearfix"></div>
+    <!-- Start of footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="sport.html">Sport</a> ·
+                <a href="technology.html">Technology</a> ·
+                <a href="about.html">About</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>Parminder gill &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>

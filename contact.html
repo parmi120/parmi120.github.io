@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <title>MY FITNESS SITE</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="nav" id="mynav">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="sport.html">Sport</a>
+            <a href="technology.html">Technology</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+
+    <!-- Start of contact form -->
+    <section id="contact-form">
+
+        <div class="container">
+
+            <form name="htmlform" method="post" action="">
+
+                <input type="text" name="first_name" placeholder="NAME" required>
+
+                <input type="email" name="email" placeholder="MAIL" required>
+
+                <textarea name="comments" placeholder="MESSAGE" required></textarea>
+
+                <button name="send" type="submit" class="submit">SEND</button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- end of contact form -->
+    <div class="clearfix"></div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="sport.html">Sport</a> ·
+                <a href="technology.html">Technology</a> ·
+                <a href="about.html">About</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+
+
+            <p>Parminder gill &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+</html>

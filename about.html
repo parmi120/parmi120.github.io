@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MY FITNESS SITE</title>
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <div class="nav" id="mynav">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="sport.html">Sport</a>
+            <a href="technology.html">Technology</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+
+    </script>
+
+    <div class="banner fadeInDown animated">
+        <img class="banner-image" src="Images/tech-banner.jpg">
+    </div>
+
+    <div class="row banner fadeInDown animated">
+        <div class="col-lg-12">
+            <h1 class="page-header">About Us
+                <small>It's Nice to Meet You!</small>
+                        <section class="sidebar">
+            <img src="images/profile.png">
+        </section>
+            </h1>
+            <p>Hello, welcome to my site i hope you enjoy your experience be sure to leave us some feedback, this website was created as part of my final year project and the goal was to ensure i have created a mobile first design with an attractive design and easy usability. The skills i have learnt will hopefully be able to progress me further in my career path and enable me to create more websites even better than this one.
+            I am currently at DMU in my final year of a computer science degree the reasoning behind me choosing the website was due to the passsion i have for sports and technology as well as the interest i have in web design</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="clearfix"></div>
+    <!-- Start of footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="sport.html">Sport</a> ·
+                <a href="technology.html">Technology</a> ·
+                <a href="about.html">About</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>Parminder gill &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>
